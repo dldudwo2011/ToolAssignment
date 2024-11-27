@@ -1,0 +1,56 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ylee39BAIS3150CodeSample
+build_property.RootNamespace = ylee39BAIS3150CodeSample
+build_property.ProjectDir = C:\Users\skske\Desktop\Software Tools\ylee39BAIS3150CodeSample\ylee39BAIS3150CodeSample\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\skske\Desktop\Software Tools\ylee39BAIS3150CodeSample\ylee39BAIS3150CodeSample
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/CreateProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUHJvZ3JhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/EnrollStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5yb2xsU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/FindProgram.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluZFByb2dyYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/FindStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluZFN0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/ModifyStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZ5U3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/RemoveStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVtb3ZlU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/skske/Desktop/Software Tools/ylee39BAIS3150CodeSample/ylee39BAIS3150CodeSample/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

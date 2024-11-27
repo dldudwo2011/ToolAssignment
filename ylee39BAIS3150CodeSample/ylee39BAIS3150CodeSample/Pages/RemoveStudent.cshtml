@@ -1,0 +1,35 @@
+﻿@page
+@model ylee39BAIS3150CodeSample.Pages.StudentProgram.RemoveStudentModel
+@{
+    ViewData["Title"] = "Remove Student";
+}
+
+
+<!DOCTYPE html><html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Remove Student</title>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validation/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobstrusive.js"></script>
+</head>
+<body>
+    <h2>Remove Student</h2>
+    <form method="post" id="removeStudentForm">
+        <div>
+            <label asp-for="StudentID"></label>
+            <input asp-for="StudentID" />
+            <span asp-validation-for="StudentID" class="text-danger"></span>
+        </div>
+        <button type="submit">Remove</button>
+    </form>
+
+    @if (Model.Confirmation)
+    {
+        <p>Student has been successfully removed.</p>
+    }
+</body>
+</html>
+
+
+

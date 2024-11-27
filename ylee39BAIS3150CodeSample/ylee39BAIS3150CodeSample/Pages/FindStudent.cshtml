@@ -1,0 +1,37 @@
+﻿@page
+@model ylee39BAIS3150CodeSample.Pages.StudentProgram.FindStudentModel
+@{
+    ViewData["Title"] = "Find Student";
+}
+
+
+<!DOCTYPE html><html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Find Student</title>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validation/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobstrusive.js"></script>
+</head>
+<body>
+    <h2>Find Student</h2>
+<form method="post" id="findStudentForm">
+    <div>
+        <label asp-for="StudentID"></label>
+        <input asp-for="StudentID" />
+        <span asp-validation-for="StudentID" class="text-danger"></span>
+    </div>
+    <button type="submit">Find</button>
+</form>
+
+@if (Model.Student != null)
+{
+    <div>
+        <h3>Student Details</h3>
+        <p>ID: @Model.Student.StudentID</p>
+        <p>Name: @Model.Student.FirstName @Model.Student.LastName</p>
+        <p>Email: @Model.Student.Email</p>
+    </div>
+}
+</body>
+</html>

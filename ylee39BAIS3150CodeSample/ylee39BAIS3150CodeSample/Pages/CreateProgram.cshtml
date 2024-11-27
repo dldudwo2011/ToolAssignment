@@ -1,0 +1,35 @@
+﻿@page
+@model ylee39BAIS3150CodeSample.Pages.StudentProgram.CreateProgramModel
+@{
+    ViewData["Title"] = "Create Program";
+}
+
+<!DOCTYPE html><html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Create Program</title>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validation/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobstrusive.js"></script>
+</head>
+<body>
+    <h2>Create Program</h2>
+    <form method="post" id="createProgramForm">
+        <div>
+            <label asp-for="ProgramCode"></label>
+            <input asp-for="ProgramCode" />
+            <span asp-validation-for="ProgramCode" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Description"></label>
+            <input asp-for="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <button type="submit">Add Program</button>
+    </form>
+    @if (Model.Confirmation)
+    {
+        <p>Student has been successfully enrolled.</p>
+    }
+</body>
+</html>

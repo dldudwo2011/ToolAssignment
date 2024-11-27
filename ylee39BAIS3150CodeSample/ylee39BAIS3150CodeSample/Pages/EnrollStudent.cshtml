@@ -1,0 +1,55 @@
+﻿@page
+@model ylee39BAIS3150CodeSample.Pages.StudentProgram.EnrollStudentModel
+@{
+    ViewData["Title"] = "Enroll Student";
+}
+
+<!DOCTYPE html><html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Enroll Student</title>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validation/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobstrusive.js"></script>
+</head>
+<body>
+    <h2>Enroll Student</h2>
+<form method="post" id="enrollStudentForm">
+    <div>
+        <label asp-for="StudentID"></label>
+        <input asp-for="StudentID" />
+        <span asp-validation-for="StudentID" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ProgramCode"></label>
+        <input asp-for="ProgramCode" />
+        <span asp-validation-for="ProgramCode" class="text-danger"></span>
+    </div>
+    <button type="submit">Enroll</button>
+</form>
+@if (Model.Confirmation)
+    {
+        <p>Student has been successfully enrolled.</p>
+    }
+</body>
+</html>
+
+
+
+
+

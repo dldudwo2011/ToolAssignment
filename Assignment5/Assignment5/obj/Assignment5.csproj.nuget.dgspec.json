@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skske\\Desktop\\Software Tools\\Assignment5\\Assignment5\\Assignment5.csproj": {}
+    "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\Assignment5\\Assignment5\\Assignment5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skske\\Desktop\\Software Tools\\Assignment5\\Assignment5\\Assignment5.csproj": {
+    "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\Assignment5\\Assignment5\\Assignment5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skske\\Desktop\\Software Tools\\Assignment5\\Assignment5\\Assignment5.csproj",
+        "projectUniqueName": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\Assignment5\\Assignment5\\Assignment5.csproj",
         "projectName": "Assignment5",
-        "projectPath": "C:\\Users\\skske\\Desktop\\Software Tools\\Assignment5\\Assignment5\\Assignment5.csproj",
-        "packagesPath": "C:\\Users\\skske\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skske\\Desktop\\Software Tools\\Assignment5\\Assignment5\\obj\\",
+        "projectPath": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\Assignment5\\Assignment5\\Assignment5.csproj",
+        "packagesPath": "C:\\Users\\ylee39\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\Assignment5\\Assignment5\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\skske\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ylee39\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -55,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.315\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

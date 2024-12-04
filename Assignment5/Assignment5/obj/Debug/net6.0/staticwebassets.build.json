@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "wHPO0P7uzZUhyZdU7ie0DSuyre61zoinj6jqnj1zHqw=",
+  "Hash": "qzmIpdRG/N1CeC9kHo5wL2BlVu6o9ksFODnx01LLFSo=",
   "Source": "Assignment5",
   "BasePath": "_content/Assignment5",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

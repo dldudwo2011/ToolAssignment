@@ -5,15 +5,11 @@
 }
 
 
-<!DOCTYPE html><html>
-<head>
-    <meta charset="utf-8"/>
-    <title>Find Student</title>
+@section scriptContent {
     <script src="~/lib/jquery/jquery.js"></script>
-    <script src="~/lib/jquery-validation/jquery.validate.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobstrusive.js"></script>
-</head>
-<body>
+    <script src="~/lib//jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+}
     <h2>Find Student</h2>
 <form method="post" id="findStudentForm">
     <div>
@@ -33,5 +29,4 @@
         <p>Email: @Model.Student.Email</p>
     </div>
 }
-</body>
-</html>
+

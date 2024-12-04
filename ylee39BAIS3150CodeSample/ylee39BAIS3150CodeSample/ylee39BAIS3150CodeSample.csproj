@@ -11,10 +11,7 @@
     <PackageReference Include="jQuery.Validation" Version="1.21.0" />
     <PackageReference Include="jQuery.Validation.Unobtrusive" Version="2.0.20710" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\lib\jquery\dist\" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="4.0.0" />
   </ItemGroup>
 
 </Project>

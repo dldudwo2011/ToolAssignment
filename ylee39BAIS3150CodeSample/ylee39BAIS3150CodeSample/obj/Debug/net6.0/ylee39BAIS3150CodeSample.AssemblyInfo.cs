@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ylee39BAIS3150CodeSample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+769c4728680e0eba27a01f90d22ac81915334567")]
 [assembly: System.Reflection.AssemblyProductAttribute("ylee39BAIS3150CodeSample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ylee39BAIS3150CodeSample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

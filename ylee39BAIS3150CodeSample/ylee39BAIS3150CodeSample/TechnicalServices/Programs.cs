@@ -9,8 +9,8 @@ namespace ylee39BAIS3150CodeSample.TechnicalServices
         public Domain.Program GetProgram(string programCode)
         {
             Domain.Program ActiveProgram = new();
-            Students studentManager = new();
-            List<Student> EnrolledStudents = studentManager.GetStudents(programCode);
+            Students StudentManager = new();
+            List<Student> EnrolledStudents = StudentManager.GetStudents(programCode);
 
             ActiveProgram.EnrolledStudents = EnrolledStudents;
 

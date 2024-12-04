@@ -9,7 +9,7 @@ namespace ylee39BAIS3150CodeSample.Pages.StudentProgram
     {
         [BindProperty]
         [Required(ErrorMessage = "Student ID is required.")]
-        public string StudentID { get; set; }
+        public string StudentID { get; set; } = string.Empty;
 
         public bool Confirmation { get; set; } = false;
 

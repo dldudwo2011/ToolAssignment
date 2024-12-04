@@ -35,8 +35,9 @@ namespace Assignment5.TechnicalServices
                 {
                     Customer customer = new()
                     {
-                        CustomerID = CustomerDataReader["CustomerID"] == DBNull.Value ? null : (string)CustomerDataReader["CustomerID"],
-                        CompanyName = CustomerDataReader["CompanyName"] == DBNull.Value ? null : (string)CustomerDataReader["CompanyName"],
+                        // see tabke definition for columns
+                        CustomerID = (string)CustomerDataReader["CustomerID"],
+                        CompanyName = (string)CustomerDataReader["CompanyName"],
                         ContactName = CustomerDataReader["ContactName"] == DBNull.Value ? null : (string)CustomerDataReader["ContactName"],
                         ContactTitle = CustomerDataReader["ContactTitle"] == DBNull.Value ? null : (string)CustomerDataReader["ContactTitle"],
                         Address = CustomerDataReader["Address"] == DBNull.Value ? null : (string)CustomerDataReader["Address"],
@@ -86,8 +87,8 @@ namespace Assignment5.TechnicalServices
             {
                 CustomerDataReader.Read();
 
-                customer.CustomerID = CustomerDataReader["CustomerID"] == DBNull.Value ? null : (string)CustomerDataReader["CustomerID"];
-                customer.CompanyName = CustomerDataReader["CompanyName"] == DBNull.Value ? null : (string)CustomerDataReader["CompanyName"];
+                customer.CustomerID = (string)CustomerDataReader["CustomerID"];
+                customer.CompanyName = (string)CustomerDataReader["CompanyName"];
                 customer.ContactName = CustomerDataReader["ContactName"] == DBNull.Value ? null : (string)CustomerDataReader["ContactName"];
                 customer.ContactTitle = CustomerDataReader["ContactTitle"] == DBNull.Value ? null : (string)CustomerDataReader["ContactTitle"];
                 customer.Address = CustomerDataReader["Address"] == DBNull.Value ? null : (string)CustomerDataReader["Address"];

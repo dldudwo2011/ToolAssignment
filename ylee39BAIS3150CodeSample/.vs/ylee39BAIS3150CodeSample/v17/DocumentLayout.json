@@ -1,0 +1,446 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\enrollstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\enrollstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\createprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\createprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\findprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\findprogram.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\findstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\findstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\modifystudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\modifystudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\removestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\removestudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\removestudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\removestudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\createprogram.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\createprogram.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\technicalservices\\programs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\technicalservices\\programs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\modifystudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\modifystudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\enrollstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\enrollstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\findstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\findstudent.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\pages\\findprogram.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\pages\\findprogram.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\technicalservices\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\technicalservices\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\domain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\domain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\domain\\bcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\domain\\bcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\ylee39bais3150codesample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\ylee39bais3150codesample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|c:\\users\\ylee39\\downloads\\toolassignment\\ylee39bais3150codesample\\ylee39bais3150codesample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77A30451-13AF-470F-AC86-F463578D2285}|ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj|solutionrelative:ylee39bais3150codesample\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 326,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Programs.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\TechnicalServices\\Programs.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\TechnicalServices\\Programs.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\TechnicalServices\\Programs.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\TechnicalServices\\Programs.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RemoveStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Program.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Program.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Program.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModifyStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FindStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FindProgram.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RemoveStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\RemoveStudent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProgram.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:54:10.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ModifyStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\ModifyStudent.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateProgram.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\CreateProgram.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnrollStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\EnrollStudent.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FindProgram.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\FindProgram.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FindStudent.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Pages\\FindStudent.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\TechnicalServices\\Students.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\TechnicalServices\\Students.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\TechnicalServices\\Students.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\TechnicalServices\\Students.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAqwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Domain\\Student.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Domain\\Student.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Domain\\Student.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Domain\\Program.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Domain\\Program.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Domain\\Program.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Domain\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BCS.cs",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Domain\\BCS.cs",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Domain\\BCS.cs",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Domain\\BCS.cs",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Domain\\BCS.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAABQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:54:10.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T17:54:10.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAcwKIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T17:54:10.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ylee39BAIS3150CodeSample.csproj",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T17:54:10.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\appsettings.json",
+              "RelativeDocumentMoniker": "ylee39BAIS3150CodeSample\\appsettings.json",
+              "ToolTip": "C:\\Users\\ylee39\\Downloads\\ToolAssignment\\ylee39BAIS3150CodeSample\\ylee39BAIS3150CodeSample\\appsettings.json",
+              "RelativeToolTip": "ylee39BAIS3150CodeSample\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T17:54:10.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

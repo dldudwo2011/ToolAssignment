@@ -1,0 +1,38 @@
+﻿@page
+@model ABCHardware_YoungjaeLee.Pages.Customer.DeleteCustomerModel
+@{
+    ViewData["Title"] = "Delete Customer";
+}
+
+<h1>Delete Customer</h1>
+
+<form method="post" id="deleteCustomerForm">
+    <div class="form-group">
+        <label asp-for="CustomerID"></label>
+        <input asp-for="CustomerID" class="form-control" />
+        <span asp-validation-for="CustomerID" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-danger">Delete Customer</button>
+    <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+    <a asp-page="/Index" class="btn btn-danger">Cancel</a>
+</form>
+
+@if (Model.Confirmation)
+{
+    <div class="alert alert-success mt-3">Customer deleted successfully!</div>
+}
+
+@section scriptContent {
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Reset button functionality
+            $('#resetButton').on('click', function () {
+                $('#deleteCustomerForm')[0].reset();
+            });
+        });
+    </script>
+}
+

@@ -1,0 +1,153 @@
+﻿@page
+@model AddSaleModel
+@{
+    ViewData["Title"] = "Add Sale";
+}
+
+<h1>Add Sale</h1>
+
+<form method="post" id="addSaleForm">
+    <div>
+        <label for="saleDate">Sale Date:</label>
+        <input type="date" id="saleDate" asp-for="SaleDate" min="@DateTime.Now.ToString("yyyy-MM-dd")" required />
+        <span asp-validation-for="SaleDate" class="text-danger"></span>
+    </div>
+    <br>
+
+    <div>
+        <label for="salespersonID">Salesperson ID:</label>
+        <input type="text" id="salespersonID" asp-for="SalespersonID" placeholder="Enter Salesperson ID" required />
+        <span asp-validation-for="SalespersonID" class="text-danger"></span>
+    </div>
+    <br>
+
+    <div>
+        <label for="customerID">Customer ID:</label>
+        <input type="text" id="customerID" asp-for="CustomerID" placeholder="Enter Customer ID" required />
+        <span asp-validation-for="CustomerID" class="text-danger"></span>
+    </div>
+    <br>
+
+    <h2>Sales Items</h2>
+    <div>
+        <label for="itemCode">Item:</label>
+        <select id="itemCode">
+            @foreach (var item in Model.Items)
+            {
+                <option value="@item.ItemCode" data-price="@item.UnitPrice">@item.Description (@item.UnitPrice)</option>
+            }
+        </select>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" placeholder="Quantity" min="1" />
+        <button type="button" id="addItemButton">Add Item</button>
+    </div>
+    <br>
+
+    <h3>Added Items</h3>
+    <table id="salesItemsTable" border="1">
+        <thead>
+            <tr>
+                <th>Item Code</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Item Total</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <br>
+
+    <h3>Summary</h3>
+    <p>Subtotal: $<span id="subtotalDisplay">@Model.SubTotal</span></p>
+    <p>GST (5%): $<span id="gstDisplay">@Model.GST</span></p>
+    <p>Total: $<span id="totalDisplay">@Model.SaleTotal</span></p>
+
+    <!-- Hidden fields to store calculated totals -->
+    <input type="hidden" id="subtotal" asp-for="SubTotal" />
+    <input type="hidden" id="gst" asp-for="GST" />
+    <input type="hidden" id="total" asp-for="SaleTotal" />
+
+    <!-- Hidden field to store sales items -->
+    <input type="hidden" id="salesItemsJson" asp-for="SalesItemsJson" />
+
+    <button type="submit">Submit Sale</button>
+    <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+    <a asp-page="/Index" class="btn btn-danger">Cancel</a>
+</form>
+@if (Model.SaleNumber > 0)
+{
+    <p>Sale has been successfully created. Sale Number: <strong>@Model.SaleNumber</strong></p>
+}
+@section scriptContent {
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            const items = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Items));
+            let salesItems = []; // Array to store sales items
+
+            function calculateSummary() {
+                const subtotal = salesItems.reduce((sum, item) => sum + item.ItemTotal, 0);
+                const gst = subtotal * 0.05; // GST = 5%
+                const total = subtotal + gst;
+
+                // Update the summary in the UI
+                document.getElementById("subtotalDisplay").textContent = subtotal.toFixed(2);
+                document.getElementById("gstDisplay").textContent = gst.toFixed(2);
+                document.getElementById("totalDisplay").textContent = total.toFixed(2);
+
+                // Update the hidden inputs
+                document.getElementById("subtotal").value = subtotal.toFixed(2);
+                document.getElementById("gst").value = gst.toFixed(2);
+                document.getElementById("total").value = total.toFixed(2);
+
+                // Update SalesItemsJson
+                document.getElementById("salesItemsJson").value = JSON.stringify(salesItems);
+            }
+
+            document.getElementById("addItemButton").addEventListener("click", function () {
+                const itemCode = document.getElementById("itemCode").value;
+                const quantity = parseInt(document.getElementById("quantity").value);
+
+                if (!itemCode || !quantity || quantity <= 0) {
+                    alert("Please select a valid item and quantity.");
+                    return;
+                }
+
+                const selectedItem = items.find(item => item.ItemCode === itemCode);
+                const itemTotal = selectedItem.UnitPrice * quantity;
+
+                // Add item to salesItems array
+                salesItems.push({
+                    ItemCode: selectedItem.ItemCode,
+                    Description: selectedItem.Description,
+                    Quantity: quantity,
+                    UnitPrice: selectedItem.UnitPrice,
+                    ItemTotal: itemTotal
+                });
+
+                // Add row to the table
+                const tableBody = document.querySelector("#salesItemsTable tbody");
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${selectedItem.ItemCode}</td>
+                    <td>${selectedItem.Description}</td>
+                    <td>${quantity}</td>
+                    <td>${selectedItem.UnitPrice.toFixed(2)}</td>
+                    <td>${itemTotal.toFixed(2)}</td>
+                `;
+                tableBody.appendChild(row);
+
+                // Update summary
+                calculateSummary();
+            });
+
+            // Reset button functionality
+            $('#resetButton').on('click', function () {
+                $('#addSaleForm')[0].reset();
+                salesItems = [];
+                calculateSummary();
+            });
+        });
+    </script>
+}

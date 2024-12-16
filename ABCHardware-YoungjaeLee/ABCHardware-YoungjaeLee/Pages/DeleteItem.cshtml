@@ -1,0 +1,37 @@
+﻿@page
+@model ABCHardware_YoungjaeLee.Pages.Inventory.DeleteItemModel
+@{
+    ViewData["Title"] = "Delete Item";
+}
+
+<h1>Delete Inventory Item</h1>
+
+<form method="post" id="deleteItemForm">
+    <div class="form-group">
+        <label asp-for="ItemCode"></label>
+        <input asp-for="ItemCode" class="form-control" />
+        <span asp-validation-for="ItemCode" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-danger">Delete Item</button>
+    <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+    <a asp-page="/Index" class="btn btn-danger">Cancel</a>
+</form>
+
+@if (Model.Confirmation)
+{
+    <div class="alert alert-success mt-3">Item deleted successfully!</div>
+}
+
+@section scriptContent {
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Reset button functionality
+            $('#resetButton').on('click', function () {
+                $('#deleteItemForm')[0].reset();
+            });
+        });
+    </script>
+}

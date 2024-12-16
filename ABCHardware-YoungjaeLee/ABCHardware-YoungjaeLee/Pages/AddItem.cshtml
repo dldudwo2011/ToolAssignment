@@ -1,0 +1,54 @@
+﻿@page
+@model ABCHardware_YoungjaeLee.Pages.Item.AddItemModel
+@{
+    ViewData["Title"] = "Add Item";
+}
+
+<h1>Add Inventory Item</h1>
+
+<form method="post" id="addItemForm">
+    <!-- Description -->
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <!-- Unit Price -->
+    <div class="form-group">
+        <label asp-for="UnitPrice"></label>
+        <input asp-for="UnitPrice" class="form-control" />
+        <span asp-validation-for="UnitPrice" class="text-danger"></span>
+    </div>
+
+    <!-- Quantity On Hand -->
+    <div class="form-group">
+        <label asp-for="QuantityOnHand"></label>
+        <input asp-for="QuantityOnHand" class="form-control" />
+        <span asp-validation-for="QuantityOnHand" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Item</button>
+    <button type="button" class="btn btn-secondary" id="resetButton">Reset</button>
+    <a asp-page="/Index" class="btn btn-danger">Cancel</a>
+</form>
+
+@if (Model.Confirmation)
+{
+    <div class="alert alert-success mt-3">Item added successfully! The system has generated an Item Code for you.</div>
+}
+
+@section scriptContent {
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Reset button functionality
+            $('#resetButton').on('click', function () {
+                $('#addItemForm')[0].reset();
+            });
+        });
+    </script>
+}
+
